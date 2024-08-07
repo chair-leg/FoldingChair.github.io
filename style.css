@@ -1,0 +1,19 @@
+body {
+    background-color: #121212; /* Dark background */
+    color: hsl(0, 0%, 100%); /* White text */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: left; /* Align text to the left */
+    max-width: 600px; /* Optional: limits the width for better readability */
+    padding: 20px; /* Optional: adds padding around the text */
+}
+
+p {
+    margin: 10px 0; /* Space between lines */
+}
