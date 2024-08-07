@@ -1,6 +1,6 @@
 body {
     background-color: #121212; /* Dark background */
-    color: hsl(0, 0%, 100%); /* White text */
+    color: #ffffff; /* White text */
     margin: 0;
     height: 100vh;
     display: flex;
@@ -16,4 +16,19 @@ body {
 
 p {
     margin: 10px 0; /* Space between lines */
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    color: #1da1f2; /* Change this color to match your design */
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.socials a:hover {
+    text-decoration: underline;
 }
